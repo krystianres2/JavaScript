@@ -1,0 +1,45 @@
+*{
+    text-align: center;
+}
+body{
+    text-align: center;
+}
+
+#box{
+    font-size:100%;
+    text-align: center;
+    margin-top: 40px;
+    border:10px solid #aaa;
+    border-radius: 15px;
+    padding:20px;
+    background-color: rgb(66, 66, 66);
+}
+#riddle{
+    color: azure;
+    font-weight: bold;
+}
+#answer{
+    color: azure;
+}
+
+.list{
+    font-size: 70%;
+    text-align: left;
+    margin-top: 40px;
+    border: 3px solid #aaa;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #fd04fd;
+}
+ul, li{
+    text-align: left;
+    margin: 5px;
+    font-size: 100%;
+}
+.good{
+    color: aquamarine;
+}
+#answer{
+    font-size: 80%;
+}
+
