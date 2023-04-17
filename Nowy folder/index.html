@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exeam schedule</title>
+</head>
+
+<body>
+
+
+    <div class="grid-container">
+        <div class="header">
+            <h2>Harmonogram tortur studenta</h2>
+        </div>
+
+        <!-- <div class="left" style="background-color:#aaa;"></div> -->
+        <div class="middle" style="background-color:#bbb;">
+            <div id="middleText">
+                <!-- <table id="myTable">
+                    <thead>
+                        <tr>
+                            <th>Data</th>
+                            <th>Nazwa</th>
+                            <th>Rodzaj zaliczenia</th>
+                        </tr>
+                    </thead>
+                    <tbody id="myTableBody">
+
+                    </tbody>
+                </table> -->
+                <ul id="list">
+
+                </ul>
+            </div>
+        </div>
+        <div class="right" style="background-color:#ccc;">
+            <div id="rightText">
+                <p>Sortowanie po dacie: </p>
+                <p><label></label><input type="radio" name="sortowanie" value="rosnąco" id="radio1"
+                        checked="checked">Rosnąco</label></p>
+                <p><label><input type="radio" name="sortowanie" value="malejąco" id="radio2">Malejąco</label></p>
+                <p>Filtrowanie po przedmiotach: </p>
+                <p><input type="checkbox" name="przedmioty" value="AI" id="cb1" checked="checked">Sztuczna inteligencja
+                </p>
+                <p><input type="checkbox" name="przedmioty" value="Systemy" id="cb2" checked="checked">Systemy
+                    operacyjne</p>
+                <p><input type="checkbox" name="przedmioty" value="JęzykiInternetowe" id="cb3" checked="checked">Języki
+                    internetowe</p>
+                <p><input type="checkbox" name="przedmioty" value="Android" id="cb4" checked="checked">Programowanie
+                    urządzeń mobilnych</p>
+                <p>Filtrowanie po rodzaju zaliczenia</p>
+                <p><input type="checkbox" name="zaliczenie" value="Egzamin" id="cb5" checked="checked">Egzamin</p>
+                <p><input type="checkbox" name="zaliczenie" value="Zerówka" id="cb6" checked="checked">Zerówka</p>
+                <p><input type="checkbox" name="zaliczenie" value="Kolokwium" id="cb7" checked="checked">Kolokwium</p>
+                <p><input type="checkbox" name="zaliczenie" value="Projekt" id="cb8" checked="checked">Projekt</p>
+                <button id="button">Implementuj</button>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Wszelkie prawa niezastrzeżone</p>
+            <p>Kontakt: muminki@vodka.pu</p>
+        </div>
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
