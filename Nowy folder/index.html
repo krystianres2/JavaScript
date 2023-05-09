@@ -1,73 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Exeam schedule</title>
 </head>
-
 <body>
-
-
-    <div class="grid-container">
-        <div class="header">
-            <h2>Harmonogram tortur studenta</h2>
+    <section id="topBar">
+        <div id="infoBar">
+            
         </div>
-
-        <!-- <div class="left" style="background-color:#aaa;"></div> -->
-        <div class="middle" style="background-color:#bbb;">
-            <div id="middleText">
-                <!-- <table id="myTable">
-                    <thead>
-                        <tr>
-                            <th>Data</th>
-                            <th>Nazwa</th>
-                            <th>Rodzaj zaliczenia</th>
-                        </tr>
-                    </thead>
-                    <tbody id="myTableBody">
-
-                    </tbody>
-                </table> -->
-                <ul id="list">
-
-                </ul>
-            </div>
+        <div id="buttonsBar">
+            <button class="btn btnWhite">Log In</button>
+            <button class="btn btnFull">Sign Up</button>
         </div>
-        <div class="right" style="background-color:#ccc;">
-            <div id="rightText">
-                <p>Sortowanie po dacie: </p>
-                <p><label></label><input type="radio" name="sortowanie" value="rosnąco" id="radio1"
-                        checked="checked">Rosnąco</label></p>
-                <p><label><input type="radio" name="sortowanie" value="malejąco" id="radio2">Malejąco</label></p>
-                <p>Filtrowanie po przedmiotach: </p>
-                <p><input type="checkbox" name="przedmioty" value="AI" id="cb1" checked="checked">Sztuczna inteligencja
-                </p>
-                <p><input type="checkbox" name="przedmioty" value="Systemy" id="cb2" checked="checked">Systemy
-                    operacyjne</p>
-                <p><input type="checkbox" name="przedmioty" value="JęzykiInternetowe" id="cb3" checked="checked">Języki
-                    internetowe</p>
-                <p><input type="checkbox" name="przedmioty" value="Android" id="cb4" checked="checked">Programowanie
-                    urządzeń mobilnych</p>
-                <p>Filtrowanie po rodzaju zaliczenia</p>
-                <p><input type="checkbox" name="zaliczenie" value="Egzamin" id="cb5" checked="checked">Egzamin</p>
-                <p><input type="checkbox" name="zaliczenie" value="Zerówka" id="cb6" checked="checked">Zerówka</p>
-                <p><input type="checkbox" name="zaliczenie" value="Kolokwium" id="cb7" checked="checked">Kolokwium</p>
-                <p><input type="checkbox" name="zaliczenie" value="Projekt" id="cb8" checked="checked">Projekt</p>
-                <button id="button">Implementuj</button>
-            </div>
+    </section>
+    <section id="navBar">
+        <div id="logo"><a href="#"><img src="Cryptoproject.png" alt=""></a></div>
+        <div id="nav">
+            <a href="#">Cryptocurrencies</a>
+            <a href="#">Exchanges</a>
+            <a href="#">Info</a>
+            <a href="#">Contact</a>
         </div>
+        <div id="options">
+            <button><i class="fa-solid fa-star"></i>Watchlist</button>
+            <button><i class="fa-solid fa-chart-pie"></i>Portfolio</button>
+        </div>
+    </section>
+    <section id="hero">
+        <h1>The best crupto ranking.</h1>
+        <p>The total crypto market volume over the last 24 hours is $53.11B, which makesa 7.20% decrease. The total volume in DeFi is currently $5.22B, 9.82% of the total crypto market 24-hour volume. The volume of all stable coins is now $47.61B, which is 89.63% of the total crypto market 24-hour volume.</p>
+    </section>
+    <section id="infoBox">
+        <div class="box"><h3>Bitcoin</h3>
+            Icon, Price, Change, URL
+        </div>
+        <div class="box"><h3>Ethereum</h3>
+            Icon, Price, Change, URL
+        </div>
+        <div class="box"><h3>BNB</h3>
+            Icon, Price, Change, URL
+        </div>
+    </section>
+    <input type="text" id="input">
+    <input type="text" id="input2">
+    <button id="button">Wyślij</button>
+    <section id="content">
+        <table id="coinsTable">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>24h %</th>
+                    <th>Market Cap</th> 
+                </tr>
+            </thead>
+            <tbody id="coinsData">
+                
+            </tbody>
+        </table>
+    </section>
 
-        <div class="footer">
-            <p>Wszelkie prawa niezastrzeżone</p>
-            <p>Kontakt: muminki@vodka.pu</p>
-        </div>
-    </div>
-    <script src="script.js">
-    </script>
+    <script src="script.js"></script>
 </body>
-
 </html>
